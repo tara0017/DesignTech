@@ -1,0 +1,151 @@
+﻿<!-- DESIGN TECH HOMEPAGE  -->
+<!DOCTYPE html>
+<html>
+
+
+
+<head> 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+  	  	
+    $(".scrabble").click(function(){
+    	alert("Scrabble board clicked");
+	});
+    
+    $(".bookIgloo").click(function(){	
+    	$(".largeBookIglooPicture").css('visibility', 'visible');
+	});
+
+ 	$(".laptopCart").click(function(){ 
+    	$(".largeLaptopCart").css('visibility', 'visible');
+	});
+    
+    $(".plasticBottleBoat").click(function(){ 
+    	$(".largePlasticBottleBoatPicture").css('visibility', 'visible');
+	});
+
+    $(".largePicture").click(function(){
+    	$(".largePicture").css('visibility', 'hidden');
+	});
+    
+  });
+  </script>
+</head>
+
+
+<style>
+
+  * {
+  	position: fixed;
+  	border: 1px dashed rgba(0,0,0,0);	
+  }
+  
+  .background-picture {
+    z-index: -10;
+  }
+  
+  .navigation-buttons {
+  	border: 1px solid #FAF;
+  	background-color: rgba(255,0,0, 0); 
+  }
+  
+  .largeBookIglooPicture {
+  	top:10px;
+   
+  }
+    
+  .largePicture {
+      visibility: hidden;
+      border: 5px solid #000;
+      left: 50px;
+      top: 115px;
+      z-index: 5;
+  }
+  
+  h1 {
+  	font-family: Centaur Serif;
+    font-size: 60px;
+    top: 5px;
+    left: 50px;
+    color: #FFF;
+  }
+  
+  h2 {
+  	font-family: Cambria;
+    font-size: 36px;
+    left: 50px;
+    color: #FFF;
+    
+  }
+  
+  
+</style>
+
+
+<body>
+
+<div>
+	<div class="Headline">
+<!-- Duplicate text to make it stand out from behind   -->
+<h1 style="top: -10px; width: 650px; color: #00F;"><b><b>GRC Design Technology</b></b></h1>
+
+<h1 style="top: -10px; width: 650px;">GRC Design Technology</h1>
+
+<!-- Duplicate text to make it stand out from behind   -->
+    	<h2 style="top: 70px; width: 275px; color: #00F;"><b><b>Enjoy your tour</b></b></h2>
+        
+<h2 style="top: 70px; width: 275px;">Enjoy your tour</h2>
+    </div>
+
+	<div>
+		<button class="navigation-buttons scrabble" style="top: 165px; left: 575px; width: 110px; height: 100px;" type="button" onclick="alert('Scrabble Board Project')"> </button>
+        
+        <button class="navigation-buttons 3DPrinter" style="top: 195px; left: 225px; width: 180px; height: 50px;" type="button" onclick="alert('3D Printers')"> </button>
+        
+        <button class="navigation-buttons laptopCart" style="top: 245px; left: 445px; width: 65px; height: 60px;" type="button" onclick="alert('Laptop Cart')"> </button>
+        
+
+
+
+        <a style="top: 175px; left: 460px;" href="#">
+<img class="navigation-buttons laserCutter" alt="Laser Cutter" src="https://vbcps-my.sharepoint.com/personal/aftaraga_vbschools_com/_layouts/15/guestaccess.aspx?docid=1440fbce7a31341a897559dbadeacdc18&authkey=AUr9wqeTxlIWL8sYZPUuRlA" width="70" height="60">
+</a>
+  
+     
+		<button class="navigation-buttons periodicTable" style="top: 300px; left: 830px; width: 105px; height: 80px;" type="button" onclick="alert('Periodic Table')"> </button>
+        
+        <button class="navigation-buttons libraryChair" style="top: 300px; left: 540px; width: 130px; height: 200px;" type="button" onclick="alert('Library Chair')"> </button>
+        
+        <a style="top: 385px; left: 715px;" href="#">
+<img class="navigation-buttons bookIgloo" alt="Book Igloo" src="https://vbcps-my.sharepoint.com/personal/aftaraga_vbschools_com/_layouts/15/guestaccess.aspx?docid=1fbb6cef834454ad0a0f61da19b11eb4c&authkey=AV-a6C_ua73HbvMTOcdGvHQ" width="100" height="75">
+</a>
+
+		<a href="#">
+<img style=" " class="largeBookIglooPicture largePicture" alt="Book Igloo" src="https://vbcps-my.sharepoint.com/personal/aftaraga_vbschools_com/_layouts/15/guestaccess.aspx?docid=1fbb6cef834454ad0a0f61da19b11eb4c&authkey=AV-a6C_ua73HbvMTOcdGvHQ" width="600" height="450">
+</a>
+
+		<p style="padding: 10px; background-color: #FFF; width: 225px; left: 675px" class="largeBookIglooPicture largePicture">As a class challange, students attempted to build an igloo using nothing but old textbooks.  This team-building activity required students to work collaboratively and communicate with one another.</p>
+
+
+        <a style="top: 200px; left: 750px;" href="#">
+<img class="navigation-buttons plasticBottleBoat" alt="Plastic Bottle Boat" src="https://vbcps-my.sharepoint.com/personal/aftaraga_vbschools_com/_layouts/15/guestaccess.aspx?docid=1f97d0656c4714be78a35908b09486b8d&authkey=AavyxYGKtSbgao7Mt6m_sbQ" width="100" height="75">
+</a>
+
+		<a href="#">
+<img style=" " class="largePlasticBottleBoatPicture largePicture" alt="Plastic Bottle Boat" src="https://vbcps-my.sharepoint.com/personal/aftaraga_vbschools_com/_layouts/15/guestaccess.aspx?docid=1f97d0656c4714be78a35908b09486b8d&authkey=AavyxYGKtSbgao7Mt6m_sbQ" width="600" height="450">
+</a>
+
+		<p style="padding: 10px; background-color: #FFF; width: 225px; left: 675px" class="largePlasticBottleBoatPicture largePicture">CHANGE THIS TEXT.</p>
+        
+        
+		<p style="padding: 10px; background-color: #FFF; width: 500px; left: 50px" class="largeLaptopCart largePicture">This class is equipped with a dedicated laptop cart which includes a laptop for each student in the class.  Some of the software we use in this class includes:<br>~ Google Sketchup for CAD and 3D printing<br>~ GIMP for photo editing<br>~ CorelDraw for photo editing and designing on the laser cutter<br>~ West Point Bridge Design for model bridge simulation<br>~ And more </p>
+                
+ 	</div>
+ 	
+  <img class="background-picture" src="https://vbcps-my.sharepoint.com/personal/aftaraga_vbschools_com/_layouts/15/guestaccess.aspx?docid=16898101808604d37ab436f7c506c3d19&authkey=Af446UgqrMLufBdtl_xrLrU" alt="Classroom SketchUp" width="1207" height="644" />
+
+</div>
+
+</body>
+</html>
